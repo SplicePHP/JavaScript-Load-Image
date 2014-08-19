@@ -16,7 +16,7 @@
     'use strict';
     if (typeof define === 'function' && define.amd) {
         // Register as an anonymous AMD module:
-        define(['load-image', 'load-image-meta'], factory);
+        define(['bi-load-image', 'bi-load-image-meta'], factory);
     } else {
         // Browser globals:
         factory(window.loadImage);
